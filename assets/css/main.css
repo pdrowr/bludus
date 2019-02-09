@@ -348,7 +348,8 @@ header .cta-green {
   justify-content: center;
   align-items: center;
   position: relative;
-  transform: translateY(-94px)
+  transform: translateY(94px);
+  z-index: 99;
 }
 
 .the-world .cta-green, .the-world h2, .the-world span, .the-world p  {
@@ -386,6 +387,7 @@ header .cta-green {
 footer {
   padding-top: 15rem!important;
   background-color: #0e183c;
+  position: relative;
 }
 
 .box-footer {
@@ -421,6 +423,14 @@ footer ul{
 
 .cta-footer {
   margin-top: 3rem;
+}
+
+.map-footer {
+  position: absolute;
+  left: 32%;
+  top: 44%;
+  width: 34rem;
+  opacity: 0.5;
 }
 
 .cta-footer a {
