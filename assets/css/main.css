@@ -28,9 +28,18 @@ header {
   z-index: 9;
   border-bottom: .5px solid #2a3757;
   height: 7rem;
+  font-size: 1.5rem;
+}
+
+#navbarNav {
+  justify-content: flex-end;
+}
+
+
+nav {
+  height: 7rem;
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
 }
 
 .navbar-brand p {
