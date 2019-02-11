@@ -155,14 +155,22 @@ header .cta-orange {
 /* DASHBOARD SECTION */
 
 .dashboard {
-  height: 80vh;
   background-image: url('../img/bg-2.png');
 }
 
-.box-dash {
+.dashboard-2 .box-dash {
+  position: absolute;
+  top: 80%;
+  width: 100%;
   display: flex;
   justify-content: center;
-  transform: translateY(-20rem);
+}
+
+.dashboard .box-dash {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  display: none;
 }
 
 .logo-dash {
@@ -240,6 +248,11 @@ header .cta-orange {
   font-weight: 900;
 }
 
+/* three section */
+
+.three-section {
+  padding-top: 55rem;
+}
 /* ABOUT */
 
 .img-about {
@@ -521,7 +534,7 @@ header .cta-orange {
   color: #6a87a5;
 }
 
-.the-world span {
+.the-world a {
   color: #ff6600;
 
 }
@@ -649,18 +662,51 @@ footer li a:hover {
   width: 12rem;
 }
 
+.copyright {
+  background-color: #0e1a42;
+  padding: 1.5rem 0;
+ font-size: 1.1rem;
+  color: #fff;
+}
+
+.flex-copyright {
+  display: flex;
+  justify-content: space-around;
+}
+
+.right a {
+  padding-right: 1rem;
+  color: #fff;
+}
+/*SCROLLBAR*/
+::-webkit-scrollbar
+{
+  width: 6px;  /* for vertical scrollbars */
+  height: 6px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
 
 /* RESPOSIVE */
 
 /* MOBILE */
 @media screen and (min-width: 0px) and (max-width: 500px) {
-  .dashboard {
-    display: none;
-  }
 
   .three-section {
     padding-top: 5rem;
   }
+
+
 }
 
 @media (min-width: 768px){
@@ -673,9 +719,20 @@ footer li a:hover {
   html {
     font-size: 8.5px;
   }
+  .dashboard-2 {
+    display: none;
+  }
 
+  .dashboard {
+    display: initial;
+  }
   .sign-up-resp {
     display: inherit;
+  }
+
+
+  .three-section {
+    padding-top: 5rem;
   }
 
   nav .cta-orange {
@@ -749,14 +806,28 @@ footer li a:hover {
 
     width: 28rem;
     }
- 
+
+    .form-wrap {
+      width: auto!important;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 990px) {
   html {
-    font-size: 9px;
+    font-size: 8px;
   }
 
+  .three-section {
+    padding-top: 8rem;
+  }
+  .dashboard-2 {
+    display: none;
+  }
+
+
+  .dashboard {
+    display: initial;
+  }
   .sign-up-resp {
     display: inherit;
   }
