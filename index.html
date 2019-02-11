@@ -20,11 +20,11 @@
   <header class=>
     <nav class="  container navbar navbar-expand-md padding-right-left navbar-light">
       <a class="navbar-brand " href="#">
-        <p>CRYPTORIO</p>
+        <img src="assets/img/logotipo-white.png" alt="" style="width: 14rem">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
         aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span id="icon-white" class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
@@ -46,16 +46,17 @@
             <a class="nav-link navbar-link" href="#">SUPPORT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navbar-link" href="#">|</a>
+            <a class="nav-link navbar-link" href="login.html">LOGIN</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link navbar-link" href="#">LOGIN</a>
+          <li class="nav-item sign-up-resp">
+            <a class="nav-link navbar-link" href="login.html">SIGN UP</a>
           </li>
           <li>
-            <a class="cta-green" href="">
+            <a class="cta-orange" href="login.html">
               SIGN UP
             </a>
           </li>
+
         </ul>
       </div>
     </nav>
@@ -68,8 +69,8 @@
         to <br> draw, annotation,
         dowload and share yourcharts</p>
       <div class="cta-banner container">
-        <a href="" class="cta-green">OPEN A LIVE ACCOUNT</a>
-        <a href="" class="cta-green">TRY FREE FOR 30-DAYS</a>
+        <a href="" class="cta-orange">OPEN A LIVE ACCOUNT</a>
+        <a href="" class="cta-orange">TRY FREE FOR 30-DAYS</a>
       </div>
     </div>
   </section>
@@ -92,7 +93,7 @@
             </div>
             <div class="body-card">
               <p class="top-text">INFORMATION ABOUT</p>
-              <h2>Secure storage</h2>
+              <h2 class="description-card"> Secure storage</h2>
               <p class="subtitle-dash">The world's leading cryptocurrency trading platform</p>
               <a class="link-read-more" href="">READ MORE →</a>
             </div>
@@ -105,7 +106,7 @@
             </div>
             <div class="body-card">
               <p class="top-text">INFORMATION ABOUT</p>
-              <h2>Low comminssion rates</h2>
+              <h2 class="description-card">Low comminssion rates</h2>
               <p class="subtitle-dash">The world's leading cryptocurrency trading platform</p>
               <a class="link-read-more" href="">READ MORE →</a>
             </div>
@@ -118,7 +119,7 @@
             </div>
             <div class="body-card">
               <p class="top-text">INFORMATION ABOUT</p>
-              <h2>Innovative projects</h2>
+              <h2 class="description-card">Innovative projects</h2>
               <p class="subtitle-dash">The world's leading cryptocurrency trading platform</p>
               <a class="link-read-more" href="">READ MORE →</a>
             </div>
@@ -131,7 +132,7 @@
             </div>
             <div class="body-card">
               <p class="top-text">INFORMATION ABOUT</p>
-              <h2>Cold storage & 24/ monitoring</h2>
+              <h2 class="description-card">Cold storage & 24/ monitoring</h2>
               <p class="subtitle-dash">The world's leading cryptocurrency trading platform</p>
               <a class="link-read-more" href="">READ MORE →</a>
             </div>
@@ -144,7 +145,7 @@
             </div>
             <div class="body-card">
               <p class="top-text">INFORMATION ABOUT</p>
-              <h2>Growing functionality</h2>
+              <h2 class="description-card">Growing functionality</h2>
               <p class="subtitle-dash">The world's leading cryptocurrency trading platform</p>
               <a class="link-read-more" href="">READ MORE →</a>
             </div>
@@ -157,7 +158,7 @@
             </div>
             <div class="body-card">
               <p class="top-text">INFORMATION ABOUT</p>
-              <h2>Customizable Interface</h2>
+              <h2 class="description-card">Customizable Interface</h2>
               <p class="subtitle-dash">The world's leading cryptocurrency trading platform</p>
               <a class="link-read-more" href="">READ MORE →</a>
             </div>
@@ -169,26 +170,64 @@
     </div>
   </section>
 
-  <!-- <section class="about">
+  <section class="about">
+    <img class="bg-about-1" src="assets/img/bg-about-1.png" alt="">
+    <img class="bg-about-2" src="assets/img/bg-about-2.png" alt="">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
-          <h2>Advance trading tools</h2>
-          <p>Cryptorio is a full feactured spot trading platform for major digital assets & cryptocurrencies, including
-            <b> Bitcoin, Ethereum, EOS, Lite coin, Ripple, NEO,Monedero</b> and many more. Bitfinex offers leveraged
+        <div class="col-lg-6 pr-3 col-sm-12 col-12  ">
+          <h2 class="title-section">Advance trading tools</h2>
+          <p class="subtitle-dash">Cryptorio is a full feactured spot trading platform for major digital assets &
+            cryptocurrencies, including
+            <span> Bitcoin, Ethereum, EOS, Lite coin, Ripple, NEO,Monedero</span> and many more. Bitfinex offers
+            leveraged
             margin trading through a peer-to-peer funding market, allowing users to securely trade whith up to 3.3x
-            leverage. </p>
-          <p>We also boast a suite of order types to help traders take advantage of every situation</p>
-          <a href="">LEARN MORE ></a>
+            leverage. <br> <br> We also boast a suite of order types to help traders take advantage of every situation
+          </p>
+          <a class="cta-about" href="">LEARN MORE ></a>
         </div>
-        <div class="col-lg-6">
-          <div class="img-about">
-            <img src="" alt="">
+        <div class="col-lg-6 col-sm-12 col-12  ">
+          <img class="img-about" src="assets/img/09_Dashboard.jpg" alt="">
+        </div>
+        <div class="col-lg-6 col-sm-12 col-12  mobile-flex padding-top-bottom">
+          <div class="mobile-about" style="background-image:url('assets/img/mobile.png')">
+            <a class="link-mobile" href="">Buy</a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 col-12  padding-top-bottom">
+          <h2 class="title-section">
+            We've created the mobile tools you need
+          </h2>
+          <p class="subtitle-dash pb-3"> Cryptorio is a global leader in the blockcrain revolution. We opperate the
+            premier
+            U.S based blockchain trading platform, whitch is designed for customers who demand lightning-fast trade
+            execution, dependable digital wallets, and industry-learding security practices. </p>
+          <a class="app-download mb-3 mt-3" href="">APP DOWNLOAD → </a>
+          <div class="item-card">
+            <div class="icon-about">
+              <img src="assets/img/icon-2-1.png" alt="">
+            </div>
+            <div class="body-card">
+              <h2 class="description-card">Customizable interface</h2>
+              <p class="subtitle-dash">We've created the mobile tools you need for trading on the go</p>
+            </div>
+          </div>
+          <div class="item-card">
+            <div class="icon-about">
+              <img src="assets/img/icon-2-2.png" alt="">
+            </div>
+            <div class="body-card">
+              <h2 class="description-card">Margin trading</h2>
+              <p class="subtitle-dash">Organice you workspace according to your needs compose you layout, choose
+                betwen
+                themes, set up
+                notifications and data preferences.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
   <section class="icon-section">
     <div class="ball-white">
       <img src="assets/img/bols.png" alt="">
@@ -221,6 +260,8 @@
     <img class="particle-4" src="assets/img/bg-s3-1.png" alt="">
   </section>
   <section class="stories padding-top-bottom">
+    <img class="bg-stories" src="assets/img/bg-stories.png" alt="">
+    <img class="bg-stories" src="assets/img/bg-stories-2.png" alt="">
     <div class="container">
       <div class="head-stories">
         <h2 class="title-section">Customer stories</h2>
@@ -230,7 +271,7 @@
         <a href="" class="link-more-stories">SEE MORE SSTORIES →</a>
       </div>
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-sm-12 col-12">
           <div class="card-stories">
             <img class="img-stories" src="assets/img/storie-1.png" alt="">
             <div class="text-stories">
@@ -238,11 +279,15 @@
               <p class="subtitle-dash"> It saves time in figuring out which prototype connects to which projecct. I
                 don't have to go back
                 through Slack or email to find specs for a prototype or if it's the latest one"</p>
-              <div class="logo-client"></div>
+              <img class="mt-4" src="assets/img/combinator.png" alt="">
+              <hr>
+              <p class="name-client">Cynthia D. MacAlexander </p>
+              <p class="ocupation">Funder, Combinator</p>
+
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-sm-12 col-12">
           <div class="card-stories">
             <img class="img-stories" src="assets/img/storie-2.png" alt="">
             <div class="text-stories">
@@ -250,7 +295,10 @@
               <p class="subtitle-dash">It saves time in figuring out which prototype connects to which projecct. I
                 don't have to go back
                 through Slack or email to find specs for a prototype or if it's the latest one"</p>
-              <div class="logo-client"></div>
+              <img class="mt-4" src="assets/img/taw.png" alt="">
+              <hr>
+              <p class="name-client">Cynthia D. MacAlexander </p>
+              <p class="ocupation">Funder, Taw</p>
             </div>
           </div>
         </div>
@@ -263,60 +311,87 @@
       <img class="earth" src="assets/img/earth.png" alt="">
       <img class="balls-blue" src="assets/img/balls-blue.png" alt="">
       <h2 class="title-section">Welcome to one of the most active crypto <br> exchanges in the world</h2>
-      <a class="cta-green" href="">SET UP TRADING ACCOUNT</a>
+      <a class="cta-orange" href="">SET UP TRADING ACCOUNT</a>
       <p>Already a member? <span>Sign in.</span> </p>>
     </div>
   </section>
 
   <footer class="padding-top-bottom">
+    <img class="particle-footer" src="assets/img/bg-foot.png" alt="">
     <img class="map-footer" src="assets/img/pie_chart_desktop_world_bg.svg" alt="">
-    <img src="" alt="">
-    <div class="container box-footer">
-      <div class="logo-footer"></div>
-      <div class="company">
-        <ul>
-          <h2 class="title-list-footer">COMPANY</h2>
-          <li>
-            <a href="">Become a Vendor</a>
-          </li>
-          <li>
-            <a href="">Affiliates</a>
-          </li>
-          <li>
-            <a href="">Our Blog</a>
-          </li>
-          <li>
-            <a href="">Privacy Policy</a>
-          </li>
-        </ul>
-      </div>
-      <div class="contact">
-        <ul>
-          <h2 class="title-list-footer">CONTACT</h2>
-          <li>
-            <a href="">Support: support@yoursite.com </a>
-          </li>
-          <li>
-            <a href="">Listing Application: listing@yoursite.com</a>
-          </li>
-          <li>
-            <a href="">Twitter: twitter@yourname</a>
-          </li>
-        </ul>
-      </div>
-      <div class="dowload">
-        <ul>
-          <h2 class="title-list-footer">APP DOWLOAD</h2>
-          <li>
-            <div class="cta-footer">
-              <a href="">App Store</a>
-              <a href="">Play Store</a>
-            </div>
-          </li>
-          <li>
-            <a href="">Volume 24H</a>
-          </li>
-        </ul>
+    <img class="particle2-footer" src="assets/img/bg-foot.png" alt="">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 col-6 logo-footer">
+          <img src="assets/img/logotipo-white.png" alt="">
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6 company">
+          <ul>
+            <h2 class="title-list-footer  ">COMPANY</h2>
+            <li>
+              <a href="">Become a Vendor</a>
+            </li>
+            <li>
+              <a href="">Affiliates</a>
+            </li>
+            <li>
+              <a href="">Our Blog</a>
+            </li>
+            <li>
+              <a href="">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6 contact">
+          <ul>
+            <h2 class="title-list-footer">CONTACT</h2>
+            <li>
+              <a href="">Support: support@yoursite.com </a>
+            </li>
+            <li>
+              <a href="">Listing Application: listing@yoursite.com</a>
+            </li>
+            <li>
+              <a href="">Twitter: twitter@yourname</a>
+            </li>
+          </ul>
+          <div class="icon-flex ">
+            <a href="">
+              <i class="fa fa-slack" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-skype" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-telegram" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-reddit-square" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6 dowload">
+          <ul>
+            <h2 class="title-list-footer">APP DOWLOAD</h2>
+            <li>
+              <div class="cta-footer">
+                <a href="">App Store</a>
+                <a href="">Play Store</a>
+              </div>
+            </li>
+            <li>
+              <a href="">Volume 24H</a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa fa-wifi" aria-hidden="true"></i>
+                395ms </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </footer>
